@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobook Reader</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    
+</head>
+<body>
+    <h1 class="text-center p-3 w-100 text-success">Audio Book Reader</h1>
+    <div class="main-container">
+        <video width="720" height="560" autoplay muted></video>
+        <div class="output">
+            <div class="header text-secondary">
+                <h1>Output</h1>
+            </div>
+            <pre class="text-secondary" id="image-text" style="white-space:pre-wrap">TEXT TO BR NARRATED</pre>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="./assets/js/tesseract.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
